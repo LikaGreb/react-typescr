@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState<number>(0);
   const [pic, setPic] = useState<any>(img1);
 
-  function counter() {
+  function counter():void {
     setCount(count + 1);
     console.log(count);
 
